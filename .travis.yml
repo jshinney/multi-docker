@@ -20,4 +20,4 @@ after_success:
   - docker push jshinney/multi-nginx
   - docker push jshinney/multi-server
   - docker push jshinney/multi-worker
-  
+  # Fixed docker login issue
